@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+.container{
+  height: 330px;
+  width: 550px;
+  border: 1px solid #101010;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+}
+.container-header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 0px 20px;
+}
+.Card{
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  background-color: #fff;
+}
+.image{
+  height: 275px;
+  width: 250px;
+}
+.image img{
+  height: 275px;
+  width: 250px;
+}
+.details{
+  height: 245px;
+  width: 250px;
+  text-align: start;
+}
+.details h2{
+  margin-bottom: 0%;
+}
+.p2{
+  margin-top: 0%;
+}
+.paradetails{
+  font-size: 14px;
+  line-height: 1.5;
+}
+.B1{
+  padding: 5px 15px;
+ }
+.B2{
+ margin-left: 2%;
+ padding: 5px 25px;
+}
+
+
